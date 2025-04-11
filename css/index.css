@@ -1,0 +1,38 @@
+img{
+    height: 70vh;
+    margin-top: -41.4vh;
+    border-radius: 1%;
+}
+.cardc{
+    background-color: red;
+    width: 0%; 
+    height: 60vh;
+    margin-left: 100px;
+    margin-top: 8vh;
+    transition: .7s;
+}
+.cardc:hover{
+    width: 37%; 
+    transition: .7s;
+}
+.nome{
+    margin-left: 58%;
+}
+.atk{
+    margin-left: 58%;
+}
+.def{
+    margin-left: 58%;
+}
+.re{
+    margin-left: 58%;
+}
+.tc{
+    margin-left: 58%;
+}
+.dc{
+    margin-left: 58%;
+}
+.hp{
+    margin-left: 58%;
+}
