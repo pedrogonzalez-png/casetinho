@@ -1,38 +1,64 @@
-img{
+.changli {
     height: 70vh;
-    margin-top: -41.4vh;
-    border-radius: 1%;
+    margin-top: -40.4vh;
+    border-radius: 8px;
+    position: fixed;
 }
-.cardc{
-    background-color: red;
-    width: 0%; 
-    height: 60vh;
-    margin-left: 100px;
-    margin-top: 8vh;
-    transition: .7s;
+
+.cardc {
+    position: relative;
+    width: 37%;
+    height: 70vh;
+    margin: 8vh 0 0 100px;
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    overflow: hidden;
+    transition: all 0.7s ease;
 }
-.cardc:hover{
-    width: 37%; 
-    transition: .7s;
+
+
+.cardc:hover {
+    width: 39%;
+    background-color: rgba(110, 0, 0, 0.34);
 }
-.nome{
+
+
+.nome,
+.atk,
+.def,
+.re,
+.tc,
+.dc,
+.hp,
+.b,
+a {
     margin-left: 58%;
+    color: transparent;
+    transition: color 0.3s ease;
+    overflow: hidden;
 }
-.atk{
-    margin-left: 58%;
+
+.cardc:hover .nome,
+.cardc:hover .atk,
+.cardc:hover .def,
+.cardc:hover .re,
+.cardc:hover .tc,
+.cardc:hover .dc,
+.cardc:hover .hp,
+.cardc:hover .b,
+.cardc:hover a {
+    color: #000;
 }
-.def{
-    margin-left: 58%;
+
+a {
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
-.re{
-    margin-left: 58%;
-}
-.tc{
-    margin-left: 58%;
-}
-.dc{
-    margin-left: 58%;
-}
-.hp{
-    margin-left: 58%;
+
+a:hover {
+    color: #333;
 }
